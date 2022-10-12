@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="661dp"
+        android:background="@drawable/login_bg"
+        android:orientation="vertical"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="101dp"
+        android:background="@drawable/layout_border"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:text="Start Checking Blood Pressure" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:backgroundTint="@color/blue_t"
+        android:gravity="center"
+        android:text="Get Started" />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/circle_border"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp" />
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="53dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="670dp"
+        android:background="@drawable/ic_baseline_home_24" />
+
+    <ImageView
+        android:id="@+id/clinic"
+        android:layout_width="53dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="670dp"
+        app:srcCompat="@drawable/ic_baseline_local_hospital_24" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="53dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="177dp"
+        android:layout_marginTop="670dp"
+        app:srcCompat="@drawable/ic_baseline_person_24" />
+
+    <ImageView
+        android:id="@+id/history"
+        android:layout_width="53dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="670dp"
+        app:srcCompat="@drawable/ic_baseline_history_24" />
+
+    <ImageView
+        android:id="@+id/settings"
+        android:layout_width="53dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="348dp"
+        android:layout_marginTop="670dp"
+        app:srcCompat="@drawable/ic_baseline_settings_24" />
+
+
+</RelativeLayout>

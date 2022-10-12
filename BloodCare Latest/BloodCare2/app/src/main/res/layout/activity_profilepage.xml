@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDEDFF"
+    tools:context=".homepage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="661dp"
+        android:background="@drawable/login_bg"
+        android:orientation="vertical"
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="#2196F3"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:foregroundGravity="center_horizontal"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_person_24_gray" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="10dp"
+            android:text="Username"
+            android:textColor="#fff"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@color/blue_t"
+
+        android:gravity="center"
+        android:text="Edit Profile"
+        android:textSize="11dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/layout_norad"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="RECENT RESULTS"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="441dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="GRAPH"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="53dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="670dp"
+        android:background="@drawable/ic_baseline_home_24" />
+
+    <ImageView
+        android:id="@+id/clinic"
+        android:layout_width="53dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="670dp"
+        app:srcCompat="@drawable/ic_baseline_local_hospital_24" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="53dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="177dp"
+        android:layout_marginTop="670dp"
+        app:srcCompat="@drawable/ic_baseline_person_24" />
+
+    <ImageView
+        android:id="@+id/history"
+        android:layout_width="53dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="670dp"
+        app:srcCompat="@drawable/ic_baseline_history_24" />
+
+    <ImageView
+        android:id="@+id/settings"
+        android:layout_width="53dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="348dp"
+        android:layout_marginTop="670dp"
+        app:srcCompat="@drawable/ic_baseline_settings_24" />
+
+
+</RelativeLayout>
