@@ -71,7 +71,7 @@ public class signuppage extends AppCompatActivity {
                 if(task.isSuccessful()){
 
                     startActivity(new Intent(getApplicationContext(),loginpage.class));
-
+                    Toast.makeText(signuppage.this, "Successfully Created An Account.", Toast.LENGTH_SHORT).show();
                 }else {
                     Toast.makeText(signuppage.this, "Error Signing Up!" +task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                 }
