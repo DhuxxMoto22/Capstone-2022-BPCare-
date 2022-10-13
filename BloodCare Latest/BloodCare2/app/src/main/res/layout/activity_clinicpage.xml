@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BDEDFF"
+    android:background="@drawable/background"
     tools:context=".homepage">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginTop="661dp"
-        android:background="@drawable/login_bg"
+        android:background="@color/tomato"
         android:orientation="vertical"
         android:padding="5dp" />
 
@@ -45,7 +45,7 @@
         android:layout_height="55dp"
         android:layout_marginLeft="265dp"
         android:layout_marginTop="670dp"
-        app:srcCompat="@drawable/ic_baseline_history_24" />
+        app:srcCompat="@drawable/ic_baseline_event_note_24" />
 
     <ImageView
         android:id="@+id/settings"
@@ -67,6 +67,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:gravity="center"
+            android:textColor="@color/tomato"
             android:text="CLINIC FINDER"
             android:textSize="20dp"
             android:textStyle="bold" />
@@ -84,7 +85,7 @@
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true"
             android:layout_gravity="center"
-            android:backgroundTint="#50C878"
+            android:backgroundTint="@color/tomato"
             android:gravity="center"
             android:text="SEARCH A CLINIC" />
     </LinearLayout>
@@ -105,8 +106,9 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:text="Clinic Details"
-                android:gravity="center"/>
+                android:textColor="@color/tomato" />
 
         </LinearLayout>
 
@@ -119,8 +121,9 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:text="Clinic Details"
-                android:gravity="center"/>
+                android:textColor="@color/tomato" />
         </LinearLayout>
 
         <LinearLayout
@@ -132,8 +135,9 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:text="Clinic Details"
-                android:gravity="center"/>
+                android:textColor="@color/tomato" />
         </LinearLayout>
 
     </LinearLayout>
@@ -143,13 +147,15 @@
         android:layout_height="390dp"
         android:layout_marginLeft="140dp"
         android:layout_marginTop="180dp"
-        android:background="@drawable/layout_norad">
+        android:background="@drawable/background">
+
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="MAP"
             android:textAlignment="center"
+            android:textColor="@color/tomato"
             android:textStyle="bold" />
     </LinearLayout>
 

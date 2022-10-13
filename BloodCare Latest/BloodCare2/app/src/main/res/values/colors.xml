@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bright_turquoise">#16E2F5</color>
     <color name="blue_t">#43C6DB</color>
+    <color name="sandy_brown">#F4A460</color>
+    <color name="tomato">#FF6347</color>
+    <color name="steel_blue">#4682B4</color>
 </resources>

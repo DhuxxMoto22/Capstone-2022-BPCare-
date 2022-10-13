@@ -4,28 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_bg"
+    android:background="@drawable/background"
     tools:context=".signuppage">
 
     <TextView
+        android:id="@+id/signupitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/signupitle"
-        android:text="Sign Up"
-        android:textSize="35dp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
         android:gravity="center"
-        android:layout_margin="25dp"/>
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/name1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/signupitle"
-        android:layout_margin="10dp"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:background="#30ffffff"
         android:drawableLeft="@drawable/ic_baseline_person_24"
         android:drawablePadding="20dp"
@@ -81,19 +85,22 @@
         android:textColorHint="@color/white" />
 
     <EditText
+        android:id="@+id/password2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/password2"
         android:layout_below="@id/password"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:background="#30ffffff"
-        android:hint="Confirm Password"
-        android:textColorHint="@color/white"
-        android:textColor="@color/white"
-        android:layout_margin="10dp"
-        android:padding="14dp"
         android:drawableLeft="@drawable/ic_baseline_info_24"
         android:drawablePadding="20dp"
-        android:inputType="textPassword"/>
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:padding="14dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
 
     <EditText
         android:layout_width="match_parent"
@@ -137,7 +144,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="15dp"
-        android:backgroundTint="@color/teal_700"
+        android:backgroundTint="@color/tomato"
         android:padding="20dp"
         android:text="CREATE ACCOUNT" />
 

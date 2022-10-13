@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_bg"
+    android:background="@drawable/background"
     tools:context=".loginpage">
 
     <TextView
@@ -45,7 +45,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:background="#30ffffff"
-        android:drawableLeft="@drawable/ic_baseline_verified_user_24"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:drawablePadding="20dp"
         android:hint="Password"
         android:inputType="textPassword"
@@ -70,15 +70,18 @@
         android:textColorHint="@color/white" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/loglogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/loglogin"
-        android:text="LOGIN"
         android:layout_below="@id/forgotpass"
-        android:layout_margin="15dp"
-        android:padding="15dp"
         android:layout_centerHorizontal="true"
-        android:backgroundTint="@color/teal_700"/>
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/tomato"
+        android:padding="15dp"
+        android:text="LOGIN" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/signupnow"
@@ -90,7 +93,7 @@
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
-        android:backgroundTint="@color/teal_700"
+        android:backgroundTint="@color/tomato"
         android:padding="15dp"
-        android:text="SIGN UP NOW"/>
+        android:text="SIGN UP NOW" />
 </RelativeLayout>

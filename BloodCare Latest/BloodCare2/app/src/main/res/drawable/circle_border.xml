@@ -5,6 +5,6 @@
         android:width="3dp"
         android:color="#78d9ff"/>
         <gradient android:angle="0" android:startColor="#AAF0D1	"
-            android:endColor="#3BB9FF"/>
-    <gradient android:startColor="@color/teal_700"/>
+            android:endColor="#FA8072"/>
+    <gradient android:startColor="@color/tomato"/>
 </shape>
