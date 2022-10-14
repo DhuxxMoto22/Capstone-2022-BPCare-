@@ -54,10 +54,10 @@ public class loginpage extends AppCompatActivity {
 
                 fAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
-                        Toast.makeText(loginpage.this, "Successfully Logged In.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(loginpage.this, "Successfully Logged In. ", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(getApplicationContext(), homepage2.class));
                     } else {
-                        Toast.makeText(loginpage.this, "Error Logging In!" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(loginpage.this, "Error Logging In! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 });
 

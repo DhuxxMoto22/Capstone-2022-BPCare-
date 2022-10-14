@@ -5,14 +5,25 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 
 import com.example.bloodcare.databinding.ActivityHomepage2Binding;
-import com.example.bloodcare.databinding.ActivityMainBinding;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class homepage2 extends AppCompatActivity {
+    TextView mmsprofusername;
+    FirebaseAuth fAuthss;
+    FirebaseFirestore fStoress;
+    String userIdss;
+
+    private View profile;
 
     ActivityHomepage2Binding binding;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +48,11 @@ public class homepage2 extends AppCompatActivity {
                     break ;
             }
             return true ;
+        });
+        profile = findViewById(R.id.profile);
+        profile.setOnClickListener(v -> {
+            Intent intent=new Intent(homepage2.this, Testing.class);
+            startActivity(intent);
         });
     }
     private void replaceFragment(Fragment fragment){
