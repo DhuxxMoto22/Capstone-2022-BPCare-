@@ -17,6 +17,7 @@
         android:gravity="center"
         android:orientation="vertical"
         android:padding="6dp"
+        android:fontFamily="serif"
         android:text="Start Checking Blood Pressure"
         android:textSize="25dp"/>
 

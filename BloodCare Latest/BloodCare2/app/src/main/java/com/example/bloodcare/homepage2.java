@@ -15,10 +15,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class homepage2 extends AppCompatActivity {
-    TextView mmsprofusername;
-    FirebaseAuth fAuthss;
-    FirebaseFirestore fStoress;
-    String userIdss;
 
     private View profile;
 
@@ -45,6 +41,9 @@ public class homepage2 extends AppCompatActivity {
                     break ;
                 case R.id.history:
                     replaceFragment(new HistoryFragment());
+                    break ;
+                case R.id.settings:
+                    replaceFragment(new SettingsFragment());
                     break ;
             }
             return true ;

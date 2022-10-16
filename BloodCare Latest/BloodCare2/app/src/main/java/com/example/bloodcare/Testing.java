@@ -43,7 +43,7 @@ public class Testing extends AppCompatActivity {
 
         userIds = fAuths.getCurrentUser().getUid();
 
-        DocumentReference documentReference = fStores.collection("users").document(userIds);
+        DocumentReference documentReference = fStores.collection("User Database").document(userIds);
         documentReference.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
             @Override
             public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException e) {

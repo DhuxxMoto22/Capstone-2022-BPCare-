@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "775758023604",
-    "project_id": "bloodcare-abc1f",
-    "storage_bucket": "bloodcare-abc1f.appspot.com"
+    "project_number": "153549528202",
+    "project_id": "bpcare-d89d6",
+    "storage_bucket": "bpcare-d89d6.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:775758023604:android:7be515bf324dfbfc8f00e1",
+        "mobilesdk_app_id": "1:153549528202:android:b89d093879fb19f141a173",
         "android_client_info": {
           "package_name": "com.example.bloodcare"
         }
       },
       "oauth_client": [
         {
-          "client_id": "775758023604-ju6ce79cvck12k8o56msnlau27lo9pni.apps.googleusercontent.com",
+          "client_id": "153549528202-rgioj8sfjdv1p05av2rh642ha7vnd0u4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBBORGwRcObiUdQzjIGQCjnLFYRI6Tzyaw"
+          "current_key": "AIzaSyDcTLKDgWjMBKtT0lcMfL5BWvw9r7Uj-cM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "775758023604-ju6ce79cvck12k8o56msnlau27lo9pni.apps.googleusercontent.com",
+              "client_id": "153549528202-rgioj8sfjdv1p05av2rh642ha7vnd0u4.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

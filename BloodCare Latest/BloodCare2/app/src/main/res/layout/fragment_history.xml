@@ -40,6 +40,7 @@
                 android:layout_marginLeft="130dp"
                 android:layout_marginTop="-64dp"
                 android:text="Username"
+                android:fontFamily="serif"
                 android:textSize="23dp"
                 android:textStyle="bold" />
 
@@ -146,6 +147,7 @@
     <TextView
         android:gravity="center"
         android:layout_gravity="bottom"
+        android:fontFamily="serif"
         android:layout_marginBottom="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -158,6 +160,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Indication"
+        android:fontFamily="serif"
         android:textSize="18dp"
         android:textStyle="bold"/>
     <TextView
@@ -166,6 +169,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Date and Time"
+        android:fontFamily="serif"
         android:textSize="13dp"
         android:textStyle="bold"/>
     <TextView
@@ -174,6 +178,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Indication"
+        android:fontFamily="serif"
         android:textSize="18dp"
         android:textStyle="bold"/>
     <TextView
@@ -182,6 +187,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Date and Time"
+        android:fontFamily="serif"
         android:textSize="13dp"
         android:textStyle="bold"/>
     <TextView
@@ -190,6 +196,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Indication"
+        android:fontFamily="serif"
         android:textSize="18dp"
         android:textStyle="bold"/>
     <TextView
@@ -198,6 +205,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Date and Time"
+        android:fontFamily="serif"
         android:textSize="13dp"
         android:textStyle="bold"/>
     <TextView
@@ -206,6 +214,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Indication"
+        android:fontFamily="serif"
         android:textSize="18dp"
         android:textStyle="bold"/>
     <TextView
@@ -214,6 +223,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Date and Time"
+        android:fontFamily="serif"
         android:textSize="13dp"
         android:textStyle="bold"/>
     <TextView
@@ -222,6 +232,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Indication"
+        android:fontFamily="serif"
         android:textSize="18dp"
         android:textStyle="bold"/>
     <TextView
@@ -230,49 +241,53 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Date and Time"
+        android:fontFamily="serif"
         android:textSize="13dp"
         android:textStyle="bold"/>
 
     <View
         android:id="@+id/view2"
-        android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="155dp"
-        android:background="@android:color/darker_gray" />
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/white" />
     <View
         android:id="@+id/view3"
-        android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="255dp"
-        android:background="@android:color/darker_gray"/>
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/white"/>
     <View
         android:id="@+id/view5"
-        android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="355dp"
-        android:background="@android:color/darker_gray"/>
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/white"/>
     <View
         android:id="@+id/view6"
-        android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="455dp"
-        android:background="@android:color/darker_gray"/>
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/white"/>
     <View
         android:id="@+id/view7"
-        android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_below="@id/layout1"
         android:layout_marginTop="555dp"
-        android:background="@android:color/darker_gray" />
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/white" />
     <View
         android:id="@+id/view8"
-        android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_below="@id/layout1"
         android:layout_marginTop="655dp"
-        android:background="@android:color/darker_gray" />
-
-
-
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/white" />
 
 </FrameLayout>
