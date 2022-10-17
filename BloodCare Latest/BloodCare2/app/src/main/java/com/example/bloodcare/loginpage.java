@@ -2,7 +2,9 @@ package com.example.bloodcare;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
 
+import android.app.Fragment;
 import android.content.Intent;
 import android.text.TextUtils;
 import android.view.View;
@@ -20,6 +22,8 @@ public class loginpage extends AppCompatActivity {
     EditText memail2, mpassword2;
     Button mloglogin2, msignupnow2;
     FirebaseAuth fAuth;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +66,7 @@ public class loginpage extends AppCompatActivity {
                     });
 
 
+
                 }
             });
 
@@ -73,7 +78,8 @@ public class loginpage extends AppCompatActivity {
                 }
             });
 
-        //go logout
+
+            //go logout
 
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {
@@ -81,6 +87,9 @@ public class loginpage extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Logged Out Successfully", Toast.LENGTH_SHORT).show();
             }
 
+
         }
+
     }
+
 }

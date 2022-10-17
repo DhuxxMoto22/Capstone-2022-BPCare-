@@ -16,74 +16,80 @@
         android:layout_gravity="right"
         android:textStyle="bold" />
 
+
     <View
         android:id="@+id/view2"
         android:layout_width="350dp"
-        android:layout_gravity="center_horizontal"
-        android:background="@android:color/white"
         android:layout_height="1dp"
-        android:layout_marginTop="120dp"/>
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:background="@android:color/white" />
 
     <TextView
+        android:id="@+id/instr"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Notification"
-        android:padding="14dp"
-        android:textSize="18dp"
+        android:layout_marginTop="193dp"
         android:fontFamily="serif"
-        android:textStyle="bold"
-        android:layout_marginTop="140dp"/>
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:padding="14dp"
         android:text="Instructions"
-        android:padding="14dp"
         android:textSize="18dp"
-        android:fontFamily="serif"
-        android:textStyle="bold"
-        android:layout_marginTop="193dp"/>
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Give Us Feedback"
-        android:padding="14dp"
-        android:textSize="18dp"
+        android:layout_marginTop="140dp"
         android:fontFamily="serif"
-        android:textStyle="bold"
-        android:layout_marginTop="246dp"/>
+        android:padding="14dp"
+        android:id="@+id/notif"
+        android:text="Notification"
+        android:textSize="18dp"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:fontFamily="serif"
+        android:padding="14dp"
+        android:id="@+id/PrivSec"
         android:text="Privacy and Security"
-        android:padding="14dp"
         android:textSize="18dp"
-        android:fontFamily="serif"
-        android:textStyle="bold"
-        android:layout_marginTop="300dp"/>
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="353dp"
+        android:fontFamily="serif"
+        android:id="@+id/Help"
+        android:padding="14dp"
         android:text="Help and Support"
-        android:padding="14dp"
         android:textSize="18dp"
-        android:fontFamily="serif"
-        android:textStyle="bold"
-        android:layout_marginTop="353dp"/>
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="About"
-        android:padding="14dp"
-        android:textSize="18dp"
+        android:layout_marginTop="406dp"
         android:fontFamily="serif"
-        android:textStyle="bold"
-        android:layout_marginTop="406dp"/>
+        android:padding="14dp"
+        android:id="@+id/About"
+        android:text="About"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="246dp"
+        android:fontFamily="serif"
+        android:padding="14dp"
+        android:id="@+id/feedback"
+        android:text="Give Us Feedback"
+        android:textSize="18dp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/logout"
