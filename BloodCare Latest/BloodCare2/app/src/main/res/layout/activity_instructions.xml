@@ -39,8 +39,41 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="serif"
                 android:padding="14dp"
-                android:text="sadsadasdasdasdasdsadasdhasjdasjkdasdasjdjhsadasdasdasdasdasdasdasdasdasdasdasdasdasdadaasdhasjkdjaskhjsahdjashjasjfasjkhsakjhjaskdjashjdasjkhjasjfassakfdhsajkfasjkfjkasdhjsahfasjfjkasfhsajjkasfhjkafjasjfjkasfhasfhaksfjaskjlkashfjkasjkasjfhafjajfjsahfasjkfasfhasklfkajsfkakfjaklsfkjlasfa"
-                android:textSize="100dp"
+                android:text="
+Instructions (make account, login, taking BP and home page).
+1. Sign up and log in.
+2. Fill up personal information.
+3. Connect the BP device (Blood Pressure Device) to BP Care application. Or mobile device.
+4. At the home page click the (start taking blood pressure button) to start getting the blood pressure.
+5. Don’t click anything until the results show in screen.
+6. The result will be shown in screen and it will recommend meal plan for your blood pressure result.
+
+(Clinic finder)
+1. Open location in main settings of the mobile device.
+2. Go to clinic finder to show the exact location of the user.
+3. It will show different clinics near the user.
+4. Click and pin specific clinic.
+5. The clinic finder will show the approximate time of travel with different types (walking, car, commute, biking).
+6. Click prefer trips and the clinic finder will start.
+
+(History)
+1. After taking blood pressure the result will be saved in history.
+2. Click text box to show the whole results.
+3. Long press the text box and it will show the delete option.
+
+(Profile)
+1. In profile will show the entire information of the user and graph of blood pressure results of the user.
+2. Click the edit profile in the upper right side of the app.
+3. The user can edit personal information one by one.
+
+(Settings)
+1. In settings the user will see all the clickable textbox (button) that includes: notification, instructions, feedback, privacy and security, help and support, and about.
+2. In notification the user can personally on and off the notification button.
+3. In instructions the user can see all the step by steps instructions and definitions of all the buttons and pages of the system.
+4. In feedback the user can give their own feedback based on what they notice in the system.
+5. In privacy and support is where the user can personally change the password and other information of the account.
+6. In about is all about the founder and owner of the system."
+                android:textSize="20dp"
                 android:textStyle="bold" />
         </ScrollView>
     </LinearLayout>
