@@ -8,6 +8,7 @@
     android:id="@+id/homee"
     tools:context=".HomeFragment">
 
+
     <TextView
         android:layout_width="350dp"
         android:layout_height="180dp"
@@ -23,6 +24,7 @@
         android:textSize="25dp"/>
 
     <Button
+        android:id="@+id/started_main"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
@@ -33,14 +35,34 @@
         android:text="Get Started" />
 
     <TextView
+        android:id="@+id/results"
         android:layout_width="268dp"
         android:layout_height="264dp"
         android:layout_centerHorizontal="true"
+        android:textSize="30dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="350dp"
         android:background="@drawable/circle_border"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="5dp" />
+        android:padding="5dp">
+    </TextView>
 
+    <TextView
+        android:text="____"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="465dp"
+        android:layout_marginLeft="173dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/textview"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="495dp"
+        android:layout_marginLeft="183dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 </FrameLayout>
