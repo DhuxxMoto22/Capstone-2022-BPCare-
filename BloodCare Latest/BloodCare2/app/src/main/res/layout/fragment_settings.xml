@@ -5,9 +5,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/background"
-    android:id="@+id/SettingS">
-
-    tools:context=".HistoryFragment">
+    android:id="@+id/SettingS"
+    tools:context=".SettingsFragment">
 
     <TextView
         android:layout_width="100dp"

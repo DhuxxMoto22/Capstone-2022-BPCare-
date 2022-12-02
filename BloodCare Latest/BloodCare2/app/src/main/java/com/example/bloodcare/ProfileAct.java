@@ -1,24 +1,21 @@
 package com.example.bloodcare;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 
-import java.util.concurrent.Executor;
-
-public class Testing extends AppCompatActivity {
+public class ProfileAct extends AppCompatActivity {
     TextView mmprofusername;
     FirebaseAuth fAuths;
     FirebaseFirestore fStores;
@@ -29,11 +26,11 @@ public class Testing extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_testing);
+        setContentView(R.layout.activity_profileact);
 
         backbutton = findViewById(R.id.backbutton);
         backbutton.setOnClickListener(v -> {
-            Intent intent=new Intent(Testing.this, homepage2.class);
+            Intent intent=new Intent(ProfileAct.this, homepage2.class);
             startActivity(intent);
         });
 

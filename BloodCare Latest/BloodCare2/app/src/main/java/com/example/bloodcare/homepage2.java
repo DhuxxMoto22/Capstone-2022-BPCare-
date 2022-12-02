@@ -1,22 +1,21 @@
 package com.example.bloodcare;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
-
+import com.example.bloodcare.cfinder.ClinicFragment;
 import com.example.bloodcare.databinding.ActivityHomepage2Binding;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.firestore.FirebaseFirestore;
 
 public class homepage2 extends AppCompatActivity {
 
     private View profile;
+    private View clinic;
 
     ActivityHomepage2Binding binding;
 
@@ -48,9 +47,15 @@ public class homepage2 extends AppCompatActivity {
             }
             return true ;
         });
+        clinic = findViewById(R.id.clinic);
+        clinic.setOnClickListener(v -> {
+            Intent intent=new Intent(homepage2.this, ClinicActivity.class);
+            startActivity(intent);
+        });
+
         profile = findViewById(R.id.profile);
         profile.setOnClickListener(v -> {
-            Intent intent=new Intent(homepage2.this, Testing.class);
+            Intent intent=new Intent(homepage2.this, ProfileAct.class);
             startActivity(intent);
         });
     }
